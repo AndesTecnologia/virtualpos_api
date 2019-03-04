@@ -1,6 +1,10 @@
-Este documento es una guia para integrarse con virtualpos.cl, para realizar esto, virtualpos disponibiliza una API REST con los métodos necesarios para generar un pago a través de la plataforma.
 
-Como requisito, para poder hacer uso de las herramientas de virtualpos.cl a traves de su api de integración, el usuario debe contar con lo siguiente.
+![enter image description here](https://s3-us-west-2.amazonaws.com/virtualpos/media/api_images/image4.png)
+# API de Integración REST
+
+Esto es una guía para integrarse con virtualpos.cl, para realizar esto, virtualpos disponibiliza una API REST con los métodos necesarios para generar un pago a través de la plataforma.
+
+Como requisito, para poder hacer uso de las herramientas de virtualpos.cl a través de su api de integración, el usuario debe contar con lo siguiente.
 
  1. Ser usuario de virtualpos.cl, esto significa tener una cuenta válida y activa en la plataforma.
  2. Contar con una secret_key activa y válida con la cual poder realizar la integración.  

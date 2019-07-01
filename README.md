@@ -94,7 +94,7 @@ Endpoint Producción:
  
 Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es necesario seguir el siguiente procedimiento.
  
-![enter image description here](https://s3-us-west-2.amazonaws.com/virtualpos/media/api_images/flujo_api.png)
+![enter image description here](https://s3-us-west-2.amazonaws.com/virtualpos/media/api_images/flujo_api2.png)
 
 
 **1.- https://api.virtualpos.cl/v1/payment/request**: Inicia una transacción en Virtualpos.cl ambiente de producción, retorna una **url** y un **uuid** para redireccionar el navegador su cliente.

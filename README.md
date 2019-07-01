@@ -30,7 +30,7 @@ Para obtener la **Api Key** y **Secret Key** de su cuenta virtualpos.cl, debes i
 SI tienes una cuenta en Virtualpos, puedes acceder al API REST mediante los siguientes endpoints:
 |Ambiente|Base URL  |
 |--|--|
-| **Producción** | https://api.virtualpos.cl/v1 |
+| **Producción**|https://api.virtualpos.cl/v1 |
 |**Sandbox**|https://api.virtualpos.com/dev
 
 El endpoint de **Producción** proporciona acceso directo para generar transacciones reales. El endpoint **Sandbox** permite probar su integración sin afectar los datos reales.
@@ -113,6 +113,7 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 |buy_order|Orden de compra, representa el producto/servicio que se está pagando. Este identificador debe ser único, Tipo: Long (255)|
 |detalle|Detalle del producto o Servicio que se requiere ser pagado por el cliente, Tipo: String (255)|
 |metodo_pago|Identificador del medio de pago. Si se envía el identificador, el pagador será redireccionado directamente al medio de pago que se indique, de lo contrario VirtualPOS le presentará una página para seleccionarlo. Los medios de pago disponibles son: **1 Webpay**, Tipo: Int (2)|
+|url_confirmacion|URL a la cual se realizará un callback Asincrono una vez que se haya finalizado el proceso de pago en VirtualPOS, La URL debe ser codificada en Base64, Tipo: String (1024)|
 |s|La firma de los parámetros efectuada con su secret_key|
 
 **Parámetros de salida:**

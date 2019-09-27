@@ -53,6 +53,15 @@ Tanto su ApiKey como su SecretKey se obtienen desde su cuenta de VirtualPos:
 | **Sandbox** | **https://dev.virtualpos.cl/admin/index.php?controller=pjAdmin&action=pjActionOwner#integración** |
 
 
+**Tarjetas de pruebas Sandbox**
+ 
+Para las transacciones de pruebas en estos ambientes se deben usar estas tarjetas:
+
+VISA 4051885600446623, CVV 123, cualquier fecha de expiración. Esta tarjeta genera transacciones aprobadas.
+MASTERCARD 5186059559590568, CVV 123, cualquier fecha de expiración. Esta tarjeta genera transacciones rechazadas.
+
+Cuando aparece un formulario de autenticación con RUT y clave, se debe usar el RUT 11.111.111-1 y la clave 123.
+
 **Firmando con la secret_key**
 
 Para integrarse con VirtualPOS es necesario firmar el mensaje con la secret_key asociada a la cuenta VirtualPOS.

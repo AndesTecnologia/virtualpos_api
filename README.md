@@ -29,7 +29,7 @@ Para obtener la **Api Key** y **Secret Key** de su cuenta virtualpos.cl, debes i
 **Acceso a la API**
 SI tienes una cuenta en Virtualpos, puedes acceder al API REST mediante los siguientes endpoints:
 |Ambiente|Base URL  |
-| **Producción**|https://api.virtualpos.cl/v1 |
+|  **Producción**|https://api.virtualpos.cl/v1 |
 |**Sandbox**|https://dev-api.virtualpos.cl/v1
 
 El endpoint de **Producción** proporciona acceso directo para generar transacciones reales. El endpoint **Sandbox** permite probar su integración sin afectar los datos reales.

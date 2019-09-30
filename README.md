@@ -28,6 +28,7 @@ Para obtener la **Api Key** y **Secret Key** de su cuenta virtualpos.cl, debes i
 
 **Acceso a la API**
 SI tienes una cuenta en Virtualpos, puedes acceder al API REST mediante los siguientes endpoints:
+
 |Ambiente|Base URL  |
 |--|--|
 |  **Producción**|https://api.virtualpos.cl/v1 |

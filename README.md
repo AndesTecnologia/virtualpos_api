@@ -83,7 +83,7 @@ Los recursos necesarios para la implementación los puedes encontrar en [https:/
 	$token_payload['uuid'] = $uuid;
 
 	// FIRMA DE LOS PARAMETROS QUE SE DEBEN INCLUIR EN EL REQUEST HACIA VIRTUALPOS
-	$jwt = JWT::encode($token_payload, base64_decode(strtr($secret_key, '-_', '+/')));
+	$jwt = JWT::encode($token_payload, $secret_key);
 
 	$apiKey = "api_key=".$api_key;
 	$uuid = "uuid=".$uuid;

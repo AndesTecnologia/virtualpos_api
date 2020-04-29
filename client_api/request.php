@@ -30,7 +30,7 @@
     $token_payload['metodo_pago'] = $metodo_pago;
     
     // FIRMA DE LOS PARAMETROS QUE SE DEBEN INCLUIR EN EL REQUEST HACIA VIRTUALPOS
-    $jwt = JWT::encode($token_payload, base64_decode(strtr($secret_key, '-_', '+/')));
+    $jwt = JWT::encode($token_payload, $secret_key);
     
     $apiKey = "api_key=".$api_key;
     $email = "email=".$email;

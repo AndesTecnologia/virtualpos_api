@@ -180,6 +180,7 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 | order | Objeto orden de pago creada para esta solicitud |
 |  uuid|Código único que representa la solicitud de pago de una transacción. Se recomienda almacenar este token para posteriormente consultar el resultado del registro.|
 |  status|Estado de la solicitud de pago: existen los siguientes 2 estados: **pendiente, pagado**|
+|monto|Monto de la venta en pesos chilenos (CLP), Tipo: Int|
 |  created|Fecha de creación de la solicitud de pago, **Formato: yyyy-mm-dd hh:mm:ss**|
 |  buyOrder|Orden de compra de la solicitud.|
 |  card_number|Ultimos 4 digitos de la tarjeta con la que se realizó el pago|

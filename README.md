@@ -178,18 +178,18 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 | first_name | Nombre del cliente creado y asociado a la solicitud de pago |
 | last_name |Apellido del cliente creado y asociado a la solicitud de pago  |
 | order | Solicitud de pago creada para esta solicitud |
-|.  uuid|Código único que representa la solicitud de pago de una transacción. Se recomienda almacenar este token para posteriormente consultar el resultado del registro.|
-|.  status|Estado de la solicitud de pago: existen los siguientes 2 estados: **pendiente, pagado**|
-|.  created|Fecha de creación de la solicitud de pago, **Formato: yyyy-mm-dd hh:mm:ss**|
-|.  buyOrder|Orden de compra de la solicitud.|
-|.  card_number|Ultimos 4 digitos de la tarjeta con la que se realizó el pago|
-|.  transaction_date|Fecha de la transacción, **Formato: yyyy-mm-dd hh:mm:ss**|
-|.  auth_code|Código de autorizacion de la transacción|
-|.  payment_date|Fecha de abono de la transacción al comercio, **Formato: yyyy-mm-dd**|
-|.  amount_to_pay|Monto de abono de la transaccion al comercio, Tipo: Int| 
-|.  shares_amount|Monto de la cuota a pagar por el tarjeta habiente, Tipo: Int|
-|.  shares_number|Cuotas a pagar por el tarjeta habiente, Tipo: Int|
-|.  payment_type_code|tipo de tarjeta,  VD = Venta Débito. VN = Venta Normal. VC = Venta en cuotas. SI = 3 cuotas sin interés. S2 = 2 cuotas sin interés. NC = N Cuotas sin interés. VP = Venta Prepago.|
+|  uuid|Código único que representa la solicitud de pago de una transacción. Se recomienda almacenar este token para posteriormente consultar el resultado del registro.|
+|  status|Estado de la solicitud de pago: existen los siguientes 2 estados: **pendiente, pagado**|
+|  created|Fecha de creación de la solicitud de pago, **Formato: yyyy-mm-dd hh:mm:ss**|
+|  buyOrder|Orden de compra de la solicitud.|
+|  card_number|Ultimos 4 digitos de la tarjeta con la que se realizó el pago|
+|  transaction_date|Fecha de la transacción, **Formato: yyyy-mm-dd hh:mm:ss**|
+|  auth_code|Código de autorizacion de la transacción|
+|  payment_date|Fecha de abono de la transacción al comercio, **Formato: yyyy-mm-dd**|
+|  amount_to_pay|Monto de abono de la transaccion al comercio, Tipo: Int| 
+|  shares_amount|Monto de la cuota a pagar por el tarjeta habiente, Tipo: Int|
+|  shares_number|Cuotas a pagar por el tarjeta habiente, Tipo: Int|
+|  payment_type_code|tipo de tarjeta,  VD = Venta Débito. VN = Venta Normal. VC = Venta en cuotas. SI = 3 cuotas sin interés. S2 = 2 cuotas sin interés. NC = N Cuotas sin interés. VP = Venta Prepago.|
 
 
 **Ejemplo:** 

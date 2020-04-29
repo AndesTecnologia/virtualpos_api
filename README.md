@@ -92,22 +92,22 @@ Los recursos necesarios para la implementación los puedes encontrar en [https:/
 	$s = "s=".$jwt;
 		
 	// URL HACIA VIRTUALPOS
-	$url = "https://api.virtualpos.cl/v1/payment/getstatus?".$apiKey."&".$uuid."&".$s;
+	$url = "https://api.virtualpos.cl/v2/payment/getstatus?".$apiKey."&".$uuid."&".$s;
 
 
 **Realizar el pago de una transacción (payment).** 
 
 Endpoint Producción: 
 
- 1. https://api.virtualpos.cl/v1/payment/request: Inicia una transacción en virtualpos.cl ambiente de producción, retorna una url y un uuid para redireccionar el navegador su cliente.
- 2. https://api.virtualpos.cl/v1/payment/getstatus: Retorna el status de la transacción, se debe invocar una vez que virtualpos.cl retorna el control a la pagina del su comercio. 
+ 1. https://api.virtualpos.cl/v2/payment/request: Inicia una transacción en virtualpos.cl ambiente de producción, retorna una url y un uuid para redireccionar el navegador su cliente.
+ 2. https://api.virtualpos.cl/v2/payment/getstatus: Retorna el status de la transacción, se debe invocar una vez que virtualpos.cl retorna el control a la pagina del su comercio. 
  
 Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es necesario seguir el siguiente procedimiento.
  
 ![enter image description here](https://s3-us-west-2.amazonaws.com/virtualpos/media/api_images/flujo_api2.png)
 
 
-**1.- https://api.virtualpos.cl/v1/payment/request**: Inicia una transacción en Virtualpos.cl ambiente de producción, retorna una **url** y un **uuid** para redireccionar el navegador su cliente.
+**1.- https://api.virtualpos.cl/v2/payment/request**: Inicia una transacción en Virtualpos.cl ambiente de producción, retorna una **url** y un **uuid** para redireccionar el navegador su cliente.
 
 **Parámetros de entrada:**
 
@@ -156,7 +156,7 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 
 
 
-**2.-https://api.virtualpos.cl/v1/payment/getstatus:** Retorna el estado de la transacción, se debe invocar una vez que Virtualpos.cl retorna el control a la página del su comercio.
+**2.-https://api.virtualpos.cl/v2/payment/getstatus:** Retorna el estado de la transacción, se debe invocar una vez que Virtualpos.cl retorna el control a la página del su comercio.
 
 **Parámetros de entrada:**
 

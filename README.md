@@ -194,7 +194,7 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 
 **Ejemplo:** 
 
-{"status":"OK","code":200,"cliente":{"email":"johndoe@gmail.com","first_name":"John","last_name":"Doe","social_id":"11111111"},"order":{"uuid":"34125c795429b3a8","status":"pagado","created":"2019-03-01 12:47:53","buyOrder":"OCx000065x0655c2f63a81c9fc"}}
+{"status":"OK","code":200,"cliente":{"email":"johndoe@gmail.com","first_name":"John","last_name":"Doe","social_id":"123123"},"order":{"uuid":"0315ea9aa823172f","status":"pagado","created":"2020-04-29 12:25:38","buyOrder":"OCx000031x0315e349aa823172f","card_number":"7611","transaction_date":"2020-04-29 12:25","auth_code":"009235","payment_date":"2020-05-05","amount_to_pay":"967","shares_amount":"0","shares_number":"0","payment_type_code":"VD"}}
 
 **Códigos de respuesta:**
 

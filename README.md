@@ -192,7 +192,7 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 |  shares_amount|Monto de la cuota a pagar por el tarjeta habiente, Tipo: Int|
 |  shares_number|Cuotas a pagar por el tarjeta habiente, Tipo: Int|
 |  payment_type_code|tipo de tarjeta,  VD = Venta Débito. VN = Venta Normal. VC = Venta en cuotas. SI = 3 cuotas sin interés. S2 = 2 cuotas sin interés. NC = N Cuotas sin interés. VP = Venta Prepago.|
-|merchant_internal_code| Codigo interno del comercio, lo puede utilizar para identificar una venta, campo opcional que retorna vacio si no es incluido al iniciar la transaccion|
+|merchant_internal_code| Codigo interno del comercio, lo puede utilizar para identificar una venta, campo opcional que retorna vacio si no es incluido al iniciar la transaccion, Tipo: String (255)|
 
 
 **Ejemplo:** 

@@ -124,6 +124,7 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 |detalle|Detalle del producto o Servicio que se requiere ser pagado por el cliente, Tipo: String (255)|
 |metodo_pago|Identificador del medio de pago. Si se envía el identificador, el pagador será redireccionado directamente al medio de pago que se indique, de lo contrario VirtualPOS le presentará una página para seleccionarlo. Los medios de pago disponibles son: **1 Webpay**, Tipo: Int (2)|
 |url_confirmacion(**opcional**)|URL a la cual se realizará un callback Asincrono una vez que se haya finalizado el proceso de pago en VirtualPOS, La URL debe ser codificada en Base64, Tipo: String (1024)|
+|merchant_internal_code(**opcional**)|Codigo interno del comercio, lo puede utilizar para identificar una venta posteriormente, Tipo: String (255)|
 |s|La firma de los parámetros efectuada con su secret_key|
 
 **Parámetros de salida:**
@@ -191,6 +192,7 @@ Para efectuar el pago de una transacción por medio de la API de VirtualPOS, es 
 |  shares_amount|Monto de la cuota a pagar por el tarjeta habiente, Tipo: Int|
 |  shares_number|Cuotas a pagar por el tarjeta habiente, Tipo: Int|
 |  payment_type_code|tipo de tarjeta,  VD = Venta Débito. VN = Venta Normal. VC = Venta en cuotas. SI = 3 cuotas sin interés. S2 = 2 cuotas sin interés. NC = N Cuotas sin interés. VP = Venta Prepago.|
+|merchant_internal_code| Codigo interno del comercio, lo puede utilizar para identificar una venta, campo opcional que retorna vacio si no es incluido al iniciar la transaccion|
 
 
 **Ejemplo:** 

@@ -32,7 +32,7 @@ SI tienes una cuenta en Virtualpos, puedes acceder al API REST mediante los sigu
 |Ambiente|Base URL  |
 |--|--|
 |  **Producción**|https://api.virtualpos.cl/v2 |
-|**Sandbox**|https://dev-api.virtualpos.cl/v2
+|**Sandbox**|https://api.virtualpos-sandbox.com/v2
 
 El endpoint de **Producción** proporciona acceso directo para generar transacciones reales. El endpoint **Sandbox** permite probar su integración sin afectar los datos reales.
 
@@ -51,7 +51,7 @@ Tanto su ApiKey como su SecretKey se obtienen desde su cuenta de VirtualPos:
 
 | **Producción** | https://www.virtualpos.cl/admin/index.php?controller=pjAdmin&action=pjActionOwner&tab=8 |
 |--|--|
-| **Sandbox** | **https://dev.virtualpos.cl/admin/index.php?controller=pjAdmin&action=pjActionOwner&tab=8** |
+| **Sandbox** | **https://www.virtualpos-sandbox.com/admin/index.php?controller=pjAdmin&action=pjActionOwner&tab=8** |
 
 
 **Tarjetas de pruebas Sandbox**
